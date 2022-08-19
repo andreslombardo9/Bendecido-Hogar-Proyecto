@@ -1,0 +1,10 @@
+En ésta segunda entrega del proyecto integrador realicé la consigna propuesta, con 1 funcion initialize que se encarga 
+escuchar el evento click al "p" de html, al momento de que se realice este vento, llama a la funcion "identifica-rusuario" que permite al usuario 
+cargar su nombre, y cambiar el cartel de bienvenido, por Hola "nombre-ingresado", por otro lado, dentro de la misma funcion initialize dentro 
+contiene otra funcion que a la hora de regargar la pagina incrementa en 1 la visitas a la misma.
+
+Por otra parte en el proyecto estoy tratando de encontrar la forma de poder hacerle hover a los botones de "Calcular envios" y "Metodos de pago"
+y que el hover sobre ese contenedor me cambie el color de los iconos que contiene, todavía no pude encontrar ni en internet y haciendolo yo la forma.
+Les pido por aca si tienen alguna ayuda para darme.
+
+Saludos Andrés Lombardo
