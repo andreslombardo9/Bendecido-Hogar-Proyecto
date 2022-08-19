@@ -165,7 +165,6 @@ header {
     position: relative;
     display: inline-block;
     text-align: center;
-
     height: 250px;
     width: 100vw;
     max-height: 250px;
@@ -213,13 +212,19 @@ font-family: 'Fredoka One', cursive;
 letter-spacing: 2px;
 }
 /* ----------------FIN ENCABEZADO------------- */
-/*CARRUSEL*/
 
-
-
-/* FIN CARRUSEL*/
-
-
+/* Identificador */
+#receiver-login{
+    cursor: pointer;
+    position:relative;
+    top: .5rem;
+    height: 3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 2rem;
+    text-shadow: #2e0d0d 0.1rem 0.1rem 0.2rem;
+}
 /* --------------SECTION 1--------------- */
 .section-categories {
     margin-top: 40px;
@@ -421,12 +426,12 @@ letter-spacing: 2px;
         justify-content: flex-start;
         font-size: 3rem;
         top: 20%;
-        left: 38%;
+        left: 50%;
         letter-spacing:5px;
     }
     .encabezado_h2{
         top: 50%;
-        left: 53%;      
+        left: 50%;      
         font-size: 1.5rem;
         letter-spacing: 4px;
         }
@@ -1030,7 +1035,9 @@ letter-spacing: 2px;
     background-color: #ebe6e6;
     color: #222;
 }
-
+.cuotas-medios-container:hover > .bx-credit-card {
+    color: #222;
+}
 .icon-creid-card {
     margin-right: 5px;
     
@@ -1043,9 +1050,7 @@ letter-spacing: 2px;
 .bx-run:hover{
     color: #222;
 }
-.bx-credit-card:hover{
-    color: #222;
-}
+
 .bx-credit-card{
     color: #ebe6e6;
     font-size: 1.5rem;
